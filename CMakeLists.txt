@@ -459,6 +459,11 @@ set (GLOG_PUBLIC_H
   src/glog/platform.h
 )
 
+set(GLOG_PUBLIC_H
+  ${GLOG_PUBLIC_H}
+  src/glog/custom_prefix.h
+)
+
 set (GLOG_SRCS
   ${GLOG_PUBLIC_H}
   src/base/commandlineflags.h
